@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Annuler CSS",
+  "version": "1.0",
+  "description": "Une extension pour annuler tout le CSS d'un site web.",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["contentScript.js"]
+    }
+  ],
+  "icons": {
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
