@@ -1,35 +1,48 @@
-# 🚫 no css chrome extension
+# 🎨 No CSS - Extension Chrome
 
-Une petite extension Chrome qui annule tous les styles CSS d'une page web.  
-Développée pour le fun ! 😄
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
----
+Une extension Chrome légère qui désactive tous les styles CSS des pages web, révélant le contenu brut. Parfaite pour les développeurs qui veulent voir le contenu brut d'un site ou simplement s'amuser à voir le web sans style !
 
-## 🔧 Installation
+## ✨ Fonctionnalités
 
-### 1. Cloner le dépôt
+- 🚫 Désactive instantanément tous les styles CSS
+- ⚡ Effet immédiat après activation
+- 🌍 Compatible avec tous les sites web
+- 🏗️ Idéal pour le débogage et le développement
 
-```bash
-git clone https://github.com/YelielGerardK/no-css-chrome-extension.git
-```
+## 📥 Installation
 
-2.Charger l’extension dans Chrome.
-Ouvrez Google Chrome.
+### Prérequis
+- Google Chrome (version récente recommandée)
+- Git (pour cloner le dépôt)
 
-Rendez-vous à l’adresse suivante :
-chrome://extensions/
+### Méthode: Depuis le code source
 
-3.Activez le mode développeur (coin supérieur droit).
+1. **Cloner le dépôt** :
+   ```bash
+   git clone https://github.com/YelielGerardK/no-css-chrome-extension.git
+   ```
 
-4.Cliquez sur Charger l’extension non empaquetée.
+2. **Ouvrir Chrome** et accéder à `chrome://extensions/`
 
-5.Sélectionnez le dossier que vous venez de cloner.
+3. **Activer le mode développeur** en haut à droite
 
-✅ L'extension se lance automatiquement si elle est activée.
+4. **Cliquer sur "Charger l'extension non empaquetée"**
 
-🧪 Utilisation
-Allez sur n’importe quelle page web.
+5. **Sélectionner le dossier** du projet cloné
 
-Tous les styles CSS de la page seront supprimés.
 
-L'effet est immédiat tant que l'extension reste activée.
+## 🚀 Utilisation
+
+1. **Cliquez sur l'icône de l'extension** dans la barre d'outils de Chrome
+2. **Activez/désactivez** l'extension selon vos besoins
+3. **Actualisez la page** pour voir les changements
+
+### Contribution
+Les contributions sont les bienvenues ! N'hésitez pas à ouvrir une issue ou une pull request.
+
+Développé avec ❤️ par [Yeliel Gerard K](https://github.com/YelielGerardK)
+
+[![GitHub stars](https://img.shields.io/github/stars/YelielGerardK/no-css-chrome-extension?style=social)](https://github.com/YelielGerardK/no-css-chrome-extension/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/YelielGerardK/no-css-chrome-extension?style=social)](https://github.com/YelielGerardK/no-css-chrome-extension/network/members)
