@@ -10,7 +10,7 @@ Développée pour le fun ! 😄
 ### 1. Cloner le dépôt
 
 ```bash
-git clone https://github.com/votre-utilisateur/no-css-chrome-extension.git
+git clone https://github.com/YelielGerardK/no-css-chrome-extension.git
 ```
 
 2. Charger l’extension dans Chrome
