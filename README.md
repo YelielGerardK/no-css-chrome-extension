@@ -13,7 +13,7 @@ Développée pour le fun ! 😄
 git clone https://github.com/YelielGerardK/no-css-chrome-extension.git
 ```
 
-2. Charger l’extension dans Chrome
+2.Charger l’extension dans Chrome.
 Ouvrez Google Chrome.
 
 Rendez-vous à l’adresse suivante :
