@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Annuler CSS",
+  "name": "No css",
   "version": "1.0",
-  "description": "Une extension pour annuler tout le CSS d'un site web.",
+  "description": "An extension to remove all CSS from a website.",
   "permissions": ["activeTab", "scripting"],
   "action": {
     "default_icon": "icon.png",

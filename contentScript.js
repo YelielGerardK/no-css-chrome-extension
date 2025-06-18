@@ -1,22 +1,22 @@
 function annulerCSS() {
-    // Désactiver les feuilles de style externes (balises <link>)
+    // Disable external style sheets (<link> tags)
     const linkElements = document.querySelectorAll('link[rel="stylesheet"]');
     linkElements.forEach(link => {
-        link.disabled = true; // Désactiver la feuille de style
+        link.disabled = true; // Disable the style sheet
     });
 
-    // Supprimer les styles internes (balises <style>)
+    // Remove internal styles (<style> tags)
     const styleElements = document.querySelectorAll('style');
     styleElements.forEach(style => {
-        style.remove(); // Supprimer l'élément de style
+        style.remove(); // Remove the style element
     });
 
-    // Supprimer les attributs style en ligne
+    // Remove inline style attributes
     const styledElements = document.querySelectorAll('[style]');
     styledElements.forEach(element => {
-        element.removeAttribute('style'); // Supprimer l'attribut style
+        element.removeAttribute('style'); // Remove the style attribute
     });
 }
 
-// Appeler la fonction pour annuler le CSS dès que le script est injecté
+// Call the function to disable CSS as soon as the script is injected
 annulerCSS();
